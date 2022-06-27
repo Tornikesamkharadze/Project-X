@@ -1,0 +1,173 @@
+body{
+    background: #5F6472;
+    margin: 0px;
+}
+
+h1,h2,p{
+    margin: 0px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.for_size{
+    width: 75%;
+    background: #5F6472;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+
+.logo{
+    margin: 27px 0px 65px 40px;
+}
+
+.shipment_list{
+    margin: 0px 0px 15px 40px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #979797;
+    cursor: pointer;
+}
+
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    margin: 0px 0px 16px 40px;
+    inline-size: 270px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #979797;
+}
+
+.active{
+    background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+    border-radius: 10px;
+    padding-right: 183px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* companyName.innerHTML = getCompanyName */
+.amactive{
+    background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+    border-radius: 10px;
+    padding-right: 152px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.main_cont{
+    margin: 122px 0px 0px 50px;
+    width: 60%;
+    height: 600px;
+    background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+    border-radius: 30px
+    
+}
+
+.amazon h1{
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 29px 0px 1px 51px;
+}
+
+.amazon p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #979797;
+    margin: 0px 0px 30px 51px;
+}
+
+.cargo_count{
+    margin: 0px 0px 30px 51px;
+}
+
+.cargo_count input,label{
+    display: block;
+}
+
+#quantity{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+ input[type="text"]{
+    padding: 13px 40px 13px 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    border:0px solid;
+ 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+.cargo_bays{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    color: #979797;
+    margin-left: 49px;
+}
+
+.count_result{
+    margin-left: 48px;
+}
+
+#loading{
+    height: 50px;
+    width: 50px;
+    margin-left: 195px;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-top: 6px solid black;
+    animation: loader 1s infinite;
+    display: none;
+}
+
+@keyframes loader {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#count_result{
+    margin: 50px;
+    font-size: 40px;
+    color: white;
+}

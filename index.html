@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACEX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Activity.png">
+   
+</head>
+<body>
+    <div class="for_size">
+        <div class="testing">
+            <div class="menu_bar">
+                <div class="logo">
+                    <img src="img/Logo.png" alt="">
+                </div>
+            </div>
+            <div class="shipment_list">
+                <p>SHIPMENT LIST</p>
+            </div>
+            
+            <div id="loading"></div>
+
+            <div class="left_menu">
+                <ul id="user">
+                    <li id="amazon"><a class="active" >Amazon.com</a></li>
+                    <li><a href="express.html">American Express</a></li>
+                    <li><a href="walmart.html">Walmart</a></li>
+                    <li><a href="apple.html">Apple</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_cont">
+            <div class="company_name">
+                <div class="amazon">
+                    <!-- <h1 id="companyName"></h1> -->
+                    <h1>Amazon</h1>
+                    <p>contact@amazon.com</p>
+                </div>
+            </div>
+            <div class="cargo_count">
+                <label id="quantity" for="quantity">Cargo boxes</label>
+                <input type="text" name="amazon" id="count_cargo"  onchange="testing()">
+            </div>
+            <div class="cargo_bays">
+                <h2>Number of required cargo bays</h2>
+            </div>
+            <div class="cargo_number" id="count_result"></div>
+        </div>
+    </div>
+</body>
+<script  src="script.js" defer>
+</script>
+</html>
